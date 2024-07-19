@@ -1,0 +1,186 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+<title>learn more</title>
+<link rel="stylesheet"href="sheet.css">
+<style>
+ /* General Styles */
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #0a0d33;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #121640;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+    margin: 20px;
+    background-color: #1a1e5e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #6C63FF;
+    border-bottom: 2px solid #6C63FF;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+section p, section ul li {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #e0e0e0;
+}
+
+/* List Styles */
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    padding-left: 30px;
+    position: relative;
+}
+
+section ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #6C63FF;
+    font-size: 1.5em;
+}
+
+/* Specific Section Styles */
+.Company-History {
+    background-color: #0d1137;
+}
+
+.Company-Info {
+    background-color: #0d123f;
+}
+
+.our-values {
+    background-color: #0d1437;
+}
+
+.sets {
+    background-color: #0d1233;
+}
+
+.Awards {
+    background-color: #0d123f;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+
+    section p, section ul li {
+        font-size: 1em;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
+
+</style>
+</head>
+<body>
+<header>
+<h1>ABOUT US</h1>
+</header>
+
+<section class="Company History">
+<h2>Company History</h2>
+<p>our company was founded in 2015 by CEO with a vision to revolutionize the digital landscape.From humble beginnings to exponential growth,We've Come a long way.Our journey has been marked by innovation,
+perseveranve and a passion for excellence..We've successfully delivered 150+ projects,empowering business to thrive online.
+Today we're a trusted partner for brands seeking digial transformation.Our story is one of dedication,innovation and a relentless pursuit of excellence</p>
+</section>
+
+<section class="Company-Info">
+<h2>Our Mission</h2>
+<ul>
+<li>Igniting Online presence,one pixel at a time</li>
+<li>Connecting brands,Creating conversations.</li>
+<li>Driving results,fueling growth</li>
+<li>Innovative solutions,expectional service</li>
+<li>Empowering digital success,passionately</li>
+<li>Transforming buisness,one click at a Time</li>
+</ul>
+</section> 
+
+<section class="our vlaues">
+<h2>Our Values</h2>
+<ul>
+<li>Customer satisfaction</li>
+<li>Innovation</li>
+<li>Integrity</li>
+<li>TeamWork</li>
+</ul>
+</sectipn>
+
+<section class="sets">
+<h2>What sets us apart</h2>
+<ul>
+<li>Personalised</li>
+<li>Data-Driven Strategies</li>
+<li>Passion for Innovation</li>
+</ul>
+</section>
+
+<section class="Awards">
+<h2>Certification/Awards</h2>
+<ul>
+<li>Digital Marketing Excellence Certificate</li>
+<li>Social Media Marketing Certification</li>
+<li>The Digital Transformation Award</li>
+<li>The Best Social Media Strategy Award</li>
+</ul>
+</section>
+
+</body>
+</html>
